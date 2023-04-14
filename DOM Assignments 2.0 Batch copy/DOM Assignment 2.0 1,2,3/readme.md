@@ -22,17 +22,6 @@ In this i change the the SEARCH box PLACEHOLDER "Search" to "Search My Project"
 const searchInput = document.querySelector('header nav div input');
 searchInput.placeholder = 'Search My Project';
 ```
-
-## **Task 3 **
-In this i change the the SEARCH box PLACEHOLDER "Search" to "Search My Project"
-### **After update**
-![output Image](./firstAssignmentImage/task3Output.png)
-```  In this i have added the code is 
-
-const textElement = document.querySelector(".hero-left-section p span:last-child");
-textElement.innerHTML = "INeuron's Intelligence Pvt Ltd";
-```
-
 ## **Task 3 **
 In this code i was target the teh class.hero-left-section and inside a #P and again inside that i changed teh content of that one of the last child's span to "INeuron's Intelligence Pvt Ltd"
 ### **After update**
@@ -111,7 +100,7 @@ parentDiv.appendChild(newDiv);
 ## **Task 1 **
 In this project i have changed the placeholders of "User output board " and the "user input board" so something else 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
 ### **After update**
-![output Image](./secondAssignmentImage/task1Output.png)
+![output Image](./thirdAssignmentImage/task1Output.png)
 ```  In this i have added the code is  
 
 3nd assignment            **task           1 **
