@@ -68,8 +68,42 @@
               Submit
             </button>
           </form>
-        </div>
+        </div >
       </section>
     </div>
   </body>
 </html>
+
+
+<script>
+// solution of the problem one 1111111111111
+
+var parentElement = document.querySelector(".main__languages");
+  var children = parentElement.children;
+for (var i = children.length - 1; i >= 0; i -= 2) {
+    // children[i].style.color="red";
+    children[i].remove();
+  }
+
+// solution of the problem 222
+
+
+var t1 = document.querySelector('.main__form-input');
+t1.placeholder = "iNeuron";
+let btn = document.createElement("button");
+btn.type="button";
+btn.innerHTML="After writing The Text Submit The Form";
+let parent=document.querySelector(".container");
+parent.appendChild(btn);
+btn.style.marginLeft="520px";
+btn.style.marginTop="10px";
+btn.style.backgroundColor="red";
+btn.style.color="white";
+btn.style.fontSize="20px";
+btn.style.width="400px";
+btn.style.height="50px";
+
+
+
+
+</script>

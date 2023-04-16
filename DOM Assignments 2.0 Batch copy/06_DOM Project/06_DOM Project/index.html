@@ -68,3 +68,26 @@
 </body>
 
 </html>
+
+<script>
+const elements = document.querySelector(".logo");
+elements.remove();
+
+  let ele2 =document.createElement("img");
+ele2.src="./assets/ineuron-logo.png";
+ele2.alt="photo not loaded";
+ele2.style.width="400px";
+
+ele2.style.position="absolute";
+ele2.style.top="20px";
+ele2.style.left="150px";
+
+let parent =document.querySelector("main");
+parent.appendChild(ele2);
+
+
+// ..ans of the question 2
+
+let new3 =document.querySelector(".app_price span");
+new3.innerHTML="<span>$10</span>";
+</script>

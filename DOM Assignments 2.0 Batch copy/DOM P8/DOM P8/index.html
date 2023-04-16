@@ -32,7 +32,7 @@
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="">W.</a>
 
-        <button class="navbar-toggler" type="button">
+        <button class="navbar-toggler" onclick="funTgl" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -94,6 +94,12 @@
             Private funding by VC firms is down 50% YOY. We take a look at what
             that means.
           </p>
+          <hr class="hr-line" />
+          <h2 class="new-head">Is VC Funding Drying Up?</h2>
+          <p class="new-p">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
         </aside>
       </section>
 
@@ -138,3 +144,44 @@
     </main>
   </body>
 </html>
+<script>
+const firstTask = document.querySelector(".new");  
+firstTask.style.overflow ="auto";
+
+const secondTask = document.querySelector("body");
+secondTask.style.backgroundImage="none";  
+
+
+// list-btn
+// const button = document.querySelector(".navbar-toggler");
+// button.addEventListener("click", function() {
+//  let ope2= document.getElementById("navbarTogglerDemo01");
+//  ope2.style.display="block";
+// });
+
+// const navbarButton = document.getElementById("navbarButton");
+// const navbarContent = document.getElementById("navbarContent");
+// navbarButton.addEventListener("click", function() {
+//   // Code to be executed when the navbar button is clicked
+//   if (navbarContent.style.display === "none") {
+//     navbarContent.style.display = "block"; // Show the navbar content
+//   } else {
+//     navbarContent.style.display = "none"; // Hide the navbar content
+//   }
+// });
+const button = document.querySelector(".navbar-toggler");
+const navbarContent = document.getElementById("navbarTogglerDemo01");
+
+button.addEventListener("click", function() {
+  if (navbarContent.style.display === "none" || navbarContent.style.display === "") {
+    navbarContent.style.display = "block";
+  } else {
+    navbarContent.style.display = "none";
+}
+});
+
+
+
+
+
+</script>

@@ -33,7 +33,7 @@
             <p class="old-price">$169.99</p>
           </div>
           <button class="add-to-cart">
-            <img src="/images/icon-cart.svg" />Add to Cart
+            <img src="./images/icon-cart.svg" />Add to Cart
           </button>
         </div>
       </div>
@@ -41,3 +41,34 @@
     <span class="title"></span>
   </body>
 </html>
+ <script>
+  // let fstTest=document.querySelector("h1");
+  // fstTest.style.color="red";
+  const fstTest = document.querySelector('h1');
+
+  fstTest.addEventListener('mouseenter', function() {
+this.style.color = 'red'; 
+this.style.cursor="pointer";
+
+});
+
+fstTest.addEventListener('mouseleave', function() {
+this.style.color = 'hsl(158, 36%, 37%)';
+});
+
+
+
+  
+  const taskTwo = document.querySelector('.add-to-cart');
+
+  taskTwo.addEventListener('mouseenter', function() {
+  this.style.backgroundColor = 'red'; 
+});
+
+taskTwo.addEventListener('mouseleave', function() {
+  this.style.backgroundColor = 'hsl(158, 36%, 37%)';
+});
+
+
+
+ </script>
